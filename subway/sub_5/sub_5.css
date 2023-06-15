@@ -1,0 +1,235 @@
+body{
+    white-space : nowrap;
+}
+footer{
+    white-space : normal;
+    margin-top: 0;
+}
+.sub_1_con1{
+    width: 65%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 100px;
+    transition: 0.5s;
+}
+.sub_1_button{
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 29px;
+    color: #858585;
+    margin-bottom: 45px;
+}
+.sub5_text1{
+    font-size: 28px;
+    font-weight: 700;
+    color: #009947;
+    text-align: center;
+    margin-top: 68px;
+}
+.sub5_text2{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 16px;
+}
+.sub5_con1{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.sub5_con1_1{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 55px;
+}
+.sub5_con1_2{
+    width: 319px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.sub5_con1_3{
+    width: 422px;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+}
+.sub5_text3{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 179px;
+}
+.sub5_text4{
+    font-size: 88px;
+    font-weight: 500;
+}
+.sub5_con1_2:hover{
+    color: #FFCA08;
+}
+.sub5_con1_3:hover{
+    color: #009947;
+}
+.sub5_con2{
+    width: 100%;
+    height: 1119px;
+    background-color: #F2F2F2;
+}
+.sub5_text5{
+    font-size: 28px;
+    font-weight: 700;
+    color: #009947;
+    text-align: center;
+    line-height: 144px;
+}
+.sub5_con2_1{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    transition: 0.5s;
+}
+.sub5_con2_2{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 57px;
+    display: flex;
+    justify-content: right;
+    transition: 0.5s;
+}
+.sub5_con2_3{
+    width: 40%;
+}
+.sub5_con2_4{
+    width: 40%;
+    padding: 0px 30px 0px 30px;
+}
+.sub5_img1{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+.sub5_text6{
+    width: 303px;
+    height: 48px;
+    background-color: #FFC30D;
+    border-radius: 82px;
+    font-size: 22px;
+    font-weight: 700;
+    color: #009947;
+    text-align: center;
+    line-height: 46px;
+    margin: 0 auto;
+    transform: translate(0px, -28px);
+}
+.sub5_text7{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    transform: translate(0px, -10px);
+}
+
+.sub5_con3{
+    width: 100%;
+    height: 758px;
+    background-image: url("sub5_bg1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sub5_text8{
+    color: #fff;
+}
+.sub5_text8_1{
+    font-size: 28px;
+    font-weight: 700;
+    padding-top: 91px;
+    text-align: center;
+}
+.sub5_text8_2{
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 9px;
+    line-height: 23px;
+}
+.sub5_con4{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    color: #fff;
+    margin-top: 75px;
+    transition: 0.5s;
+}
+.sub5_con4_1{
+    width: 201px;
+    height: 269px;
+}
+.sub5_cir1{
+    width: 195px;
+    height: 195px;
+    border: solid 3px #FFCA08;
+    border-radius: 50%;
+    text-align: center;
+}
+.sub5_cir2{
+    width: 195px;
+    height: 195px;
+    border: solid 3px #009223;
+    border-radius: 50%;
+    text-align: center;
+}
+.sub5_text9{
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFCA08;
+    margin-top: 66px;
+}
+.sub5_text9_3{
+    font-size: 18px;
+    font-weight: 500;
+    color: #009223;
+    margin-top: 66px;
+}
+.sub5_text9_1{
+    font-size: 21px;
+    font-weight: 700;
+    margin-top: 3px;
+}
+.sub5_text9_2{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    text-align: center;
+}
+.sub5_tri{
+    transform: translate(0, -30px);
+    object-fit: contain;
+}
+.sub5_text10{
+    width: 80%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #CCCCCC;
+    margin: 0 auto;
+    margin-top: 86px;
+}
+.sub5_button1{
+    width: 148px;
+    height: 39px;
+    background-color: #009223;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+}
+.sub5_dire{
+    transform: translate(2px, 1px);
+}

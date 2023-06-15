@@ -1,0 +1,56 @@
+/* 노트북 & 테블릿 가로 (해상도 1024px ~ 1400px)*/ 
+@media all and (min-width:1024px) and (max-width:1400px) { 
+    /*-- 메뉴바 --*/
+    header{
+        width: 98%;
+        height: 98px;
+        transition: 0.3s;
+    }
+    .logo{
+        margin-top: 12px;
+        left: 50%;
+        transform: translate(-50%, 0);
+    }
+    .menu_cover{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .menu_cover_1{
+        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+    .menubox_1{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 64px;
+        transition: 0.5s;
+    }
+    .menubox_2{
+        width: 90%;
+        margin-top: 100px;
+        opacity: 0;
+        display: flex;
+    }
+
+    /*-- 푸터 --*/
+    footer{
+        height: 205px;
+    }
+    .foottext_1{
+        width: 39%;
+    }
+    .foottext_2{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        grid-row-gap: 15px;
+    }
+    .icon{
+        display: flex;
+        width: 110px;
+    }
+  } 

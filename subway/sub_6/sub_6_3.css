@@ -1,0 +1,72 @@
+/* 모바일 가로 & 테블릿 세로 (해상도 480px ~ 767px)*/ 
+@media all and (min-width:480px) and (max-width:767px) {
+    .sub_1_con1{
+        width: 90%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .sub_1_button{
+        font-size: 13px;
+        font-weight: 700;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        transform: translate(0, -90%);
+        color: #858585;
+    }
+
+    .sub6_con1{
+        width: 90%;
+        height: 716px;
+        margin-top: 135px;
+    }
+    .sub6_con2{
+        width: 90%;
+        height: 78px;
+        margin: 0 auto;
+        margin-top: 63px;
+    }
+    .sub6_con3{
+        width: 90%;
+        height: 78px;
+        margin: 0 auto;
+        margin-top: 18px;
+    }
+    .sub6_con2_1{
+        width: 100%;
+        height: 47px;
+        background-color: #ECECEC;
+        color: #C9C9C9;
+        line-height: 47px;
+        margin-top: 7px;
+    }
+    .sub6_con5{
+        width: 90%;
+        height: 50px;
+        background-color: #019845;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 51px;
+        margin: 0 auto;
+        margin-top: 60px;
+        text-align: center;
+    }
+    .sub6_con4{
+        width: 90%;
+        height: 25px;
+        margin: 0 auto;
+        margin-top: 26px;
+        display: flex;
+    }
+    .sub6_con6{
+        width: 84%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+    }
+    .sub6_con1{
+        margin-top: 84px;
+    }
+}
