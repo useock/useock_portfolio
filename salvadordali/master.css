@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+/**---네비게이션적용---**/
+nav{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    background-color: white;
+}
+.menubar{
+    width: 1104px;
+    height: 94px;
+    display: flex;
+    justify-content: left;
+}
+.logo{
+    width: 264px;
+    height: 76px;
+}
+.menu{
+    width: 489px;
+    height: 33px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 354px;
+    margin-top: 44px;
+}
+.menu1 > a{
+    color: #323444;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: 700;
+    font-size: 19px;
+}
+.menu1 > a:hover{
+    border-bottom: solid 2px #323444;
+}
+/**----인트로콘텐츠 적용---**/
+.inbg{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.intro{
+    background-image: url(img/inbg.png);
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inbox{
+    width: 1104px;
+    height: 930px;
+}
+.incon_1{
+    margin-top: 280px;
+    margin-left: 535px;
+}
+.incon_2{
+    margin-top: 99px;
+    margin-left: 850px;
+}
+.incon_3{
+    margin-top: 102px;
+    margin-left: 902px;
+}
+
+/**----메인콘텐츠 적용---**/
+.wrap{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+.box1{
+    height: 956px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1_1{
+    width: 1104px;
+    height: 739px;
+}
+.box1_2{
+    margin-left: 20px;
+}
+
+
+.box2{
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F2F2F2;
+}
+.box2_1{
+    width: 961px;
+    height: 769px;
+}
+.box2_2{
+    margin-bottom: 55px;
+}
+.box2_3{
+    margin-left: 709px;
+    margin-top: 28px;
+}
+
+
+.box3{
+    height: 2160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box3_1{
+    width: 1104px;
+    height: 1912px;
+}
+.box3_2{
+    margin-left: 62px;
+}
+.box3_3{
+    margin-left: 93px;
+    margin-top: 120px;
+}
+.box3_4{
+    margin-left: 109px;
+    margin-top: 24px;
+}
+.box3_5{
+    margin-top: 86px;
+    margin-left: 737px;
+}
+
+
+.box4{
+    background-image: url(img/main4.png);
+    height: 1080px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box4_1{
+    width: 1104px;
+    height: 1080px;
+}
+.box4_2{
+    margin-top: 272px;
+    margin-left: 561px;
+}
+
+/**----서브1콘텐츠 적용---**/
+.bg1_3{
+    background-color: #F2F2F2;
+}
+.bg1_5{
+    background-color: #F2F2F2;
+}
+.sbox1{
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.sbox1_1{
+    width: 100%;
+    height: 956px;
+    background-color: #D9D8D6;
+    display: flex;
+    justify-content: center;
+}
+.sub1_1{
+    margin-top: 25px;
+    width: 1104px;
+    height: 931px;
+}
+
+.sbox1_2{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub1_2{
+    margin-top: 65px;
+    width: 1111px;
+    height: 548px;
+}
+.sub1_3{
+    width: 528px;
+    height: 213px;
+    margin-top: 63px;
+}
+.copy1_1{
+    width: 109px;
+    height: 20px;
+    margin-left: 995px;
+    margin-top: 118px;
+}
+
+.sbox1_3{
+    width: 1104px;
+    height: 1080px;
+    background-color: #F2F2F2;
+    margin: 0 auto;
+}
+.sub1_4{
+    margin-top: 129px;
+}
+.copy1_2{
+    width: 109px;
+    height: 20px;
+    margin-left: 995px;
+    margin-top: 84px;
+}
+
+.sbox1_4{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub1_5{
+    width: 1104px;
+    height: 905px;
+    margin-top: 122px;
+}
+.copy1_3{
+    width: 109px;
+    height: 20px;
+    margin-left: 995px;
+}
+
+.sbox1_5{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub1_6{
+    margin-top: 159px;
+    margin-left: 152px;
+}
+.copy1_4{
+    width: 109px;
+    height: 20px;
+    margin-left: 995px;
+    margin-top: 86px;
+}
+/**----서브2콘텐츠 적용---**/
+.bg2_1{
+    background-image: url(img/sub2bg.png);
+    height: 956px;
+    background-size: cover;
+}
+.bg2_2{
+}
+.bg2_3{
+    background-color: #F2F2F2;
+}
+.bg2_4{
+}
+.bg2_5{
+    background-color: #F2F2F2;
+}
+.sbox2_1{
+    width: 1104px;
+    height: 956px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sbox2_2{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub2_2{
+    width: 1104px;
+    height: 744px;
+    margin-top: 84px;
+}
+.sub2_3{
+    margin-top: 15px;
+}
+.copy2_1{
+    margin-left: 909px;
+    margin-top: 40px;
+}
+
+.sbox2_3{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub2_4{
+    margin-top: 84px;
+}
+.copy2_2{
+    margin-left: 909px;
+    margin-top: 98px;
+}
+
+.sbox2_4{
+    width: 1104px;
+    height: 2160px;
+    margin: 0 auto;
+}
+.sub2_5{
+    margin-top: 130px;
+}
+.sub2_6{
+    margin-top: 65px;
+    margin-left: 268px;
+}
+.copy2_3{
+    margin-left: 909px;
+    margin-top: 172px;
+}
+
+.sbox2_5{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub2_7{
+    margin-top: 65px;
+}
+.sub2_8{
+    margin-top: 34px;
+}
+
+/**----서브3콘텐츠 적용---**/
+.bg3_1{
+    background-image: url(img/sub3bg.png);
+    height: 956px;
+    background-size: cover;
+}
+.bg3_2{
+}
+.bg3_3{
+    background-image: url(img/sub3_4.png);
+    height: 956px;
+    background-size: cover;
+}
+.bg3_4{
+}
+.bg3_5{
+    background-color: #F2F2F2;
+}
+
+.sbox3_1{
+    width: 1104px;
+    height: 956px;
+    margin: 0 auto;
+}
+.sub3_1{
+    margin-top: 347px;
+    margin-left: 351px;
+}
+
+.sbox3_2{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub3_2{
+    margin-top: 107px;
+    margin-left: 117px;
+}
+.sub3_3{
+    margin-top: 47px;
+    margin-left: 228px;
+}
+
+.sbox3_3{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+
+.sbox3_4{
+    width: 1104px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub3_4{
+    margin-top: 154px;
+    margin-left: 83px;
+}
+
+.sbox3_5{
+    width: 1920px;
+    height: 1080px;
+    margin: 0 auto;
+}
+.sub3_5{
+    margin-top: 151px;
+    margin-left: 308px;
+}
+.sub3_6{
+    margin-top: 123px;
+    margin-left: 667px;
+}
+.copy3{
+    margin-top: 77px;
+    margin-left: 1420px;
+}
+
+/**----서브4콘텐츠 적용---**/
+.bg4_1{
+    background-image: url(img/sub4bg.png);
+    height: 956px;
+    background-size: cover;
+}
+.bg4_2{
+}
+.bg4_3{
+    background-image: url(img/sub4bg_1.png);
+    height: 1225px;
+    background-size: cover;
+}
+
+.sbox4_1{
+    width: 1104px;
+    height: 956px;
+    margin: 0 auto;
+}
+.sub4_1{
+    margin-top: 347px;
+    margin-left: 242px;
+}
+
+.sbox4_2{
+    width: 1104px;
+    height: 3096px;
+    margin: 0 auto;
+}
+.sub4_2{
+    margin-top: 107px;
+}
+.sub4_3{
+    margin-top: 6px;
+}
+.sub4_4{
+    margin-top: 65px;
+}
+.sub4_5{
+    margin-top: 175px;
+}
+.sub4_6{
+    margin-top: 49px;
+}
+.sub4_7{
+    margin-top: 12px;
+    margin-left: 970px;
+}
+
+.sbox4_3{
+    width: 1104px;
+    height: 1225px;
+    margin: 0 auto;
+}
+
+
+/**----푸터콘텐츠 적용---**/
+footer{
+    width: 100%;
+    height: 160px;
+    background-color: #323444;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer1{
+    width: 1104px;
+    height: 75px;
+    margin-top: 10px;
+}
