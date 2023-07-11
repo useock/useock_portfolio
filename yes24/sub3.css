@@ -1,0 +1,214 @@
+@media all and (min-width:480px) and (max-width:767px) {
+    .logo{
+        width: 141px;
+        height: 56px;
+    }
+    .search{
+        width: 220px;
+        height: auto;
+        font-size: 12px;
+    }
+    nav{
+        width: 100%;
+        font-size: 11px;
+    }
+    header{
+        display: none;
+    }
+    /* ##############메뉴바 모바일 시작############# */
+    .header_m{
+        display: flex;
+        justify-content: center;
+    }
+    .header_m2{
+        display: flex;
+        justify-content: space-between;
+    }
+    #menu_list_m{
+        display: block;
+    }
+    .search_m{
+        display: flex;
+    }
+    /* ##############메뉴바 모바일 끝############# */
+
+    /* ##############배너 모바일 시작############# */
+    .con_1{
+        font-size: 12px;
+        font-weight: 700;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 90px 70px 60px;
+        row-gap: 10px;
+        margin-top: 50px;
+    }
+    .con_3{
+        font-size: 12px;
+        font-weight: 700;
+        display: grid;
+        justify-content: space-between;
+        grid-template-columns: 33% 29% 23%;
+        row-gap: 10px;
+        padding-top: 20px;
+    }
+    .dir_pointer{
+        width: 15px;
+        height: auto;
+    }
+
+    .ad_menu{
+        grid-template-columns: repeat(3, 80px);
+        grid-template-rows: 20px;
+        row-gap: 10px;
+    }
+    .ad_menu>a{
+        display: inline-block;
+        line-height: 20px;
+        font-size: 10px;
+        font-weight: 500;
+        text-align: center;
+        border-radius: 5px;
+    }
+    /* ##############배너 모바일 끝############# */
+
+    /* ##############오늘의 책 모바일 & 베스트 셀러 시작############# */
+    .today{
+        display: none;
+    }
+    .today_m{
+        display: flex;
+    }
+    /* ##############오늘의 책 & 베스트 셀러 모바일 끝############# */
+
+    .now{
+        display: none;
+    }
+    .now_m{
+        display: flex;
+    }
+
+    .writer{
+        height: 120px;
+        font-size: 20px;
+        padding-top: 34px;
+    }
+    .writer_1{
+        font-size: 14px;
+    }
+
+    .pick{
+        display: none;
+    }
+    .pick_list{
+        width: 100vw;
+        font-size: 12px;
+        margin-bottom: 22px;
+    }
+    .pick_list1{
+        width: 12.5vw;
+    }
+    .pick_list2{
+        width: 12.5vw;
+    }
+
+    .mind_con{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 20px;
+        place-items: center;
+    }
+
+    .subcon1_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+
+    .yout_con{
+        width: 400px;
+    }
+    .yout_vi1{
+        width: 400px;
+        height: 300px;
+    }
+    .yout_vi1_1{
+        height: 225px;
+    }
+    .yout_dir{
+        display: none;
+    }
+    #yout_vi1{
+        display: block;
+    }
+    #yout_vi2{
+        display: block;
+    }
+    #yout_vi3{
+        display: block;
+    }
+    #yout_text1{
+        display: none;
+    }
+    .yout_text1{
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .info_1{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        row-gap: 30px;
+    }
+    .adv_text1{
+        font-size: 12px;
+    }
+    .adv_text2{
+        font-size: 11px;
+    }
+    .notif{
+        grid-area: a;
+    }
+    .adv1{
+        grid-area: b;
+    }
+    .adv2{
+        grid-area: c;
+    }
+
+
+    .fo_list1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding-top: 25px;
+        font-size: 12px;
+        padding-bottom: 36px;
+    }
+
+    .fo_list2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        row-gap: 25px;
+        font-size: 12px;
+    }
+    .fo_text1{
+        grid-area: a;
+    }
+    .fo_text2{
+        grid-area: b;
+    }
+    .fo_text3{
+        grid-area: c;
+    }
+  } 

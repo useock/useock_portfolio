@@ -1,0 +1,168 @@
+@media all and (min-width:768px) and (max-width:1023px) { 
+    .logo{
+        width: 141px;
+        height: 56px;
+    }
+    .search{
+        width: 220px;
+        height: auto;
+        font-size: 12px;
+    }
+    nav{
+        width: 40%;
+        font-size: 11px;
+    }
+    header{
+        align-items: end;
+    }
+    .con_1{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .con_3{
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .dir_pointer{
+        width: 33px;
+        height: 66px;
+    }
+
+    .ad_menu{
+        grid-template-columns: repeat(5,120px);
+        row-gap: 20px;
+    }
+
+    /* ##############오늘의 책 모바일 & 베스트 셀러 시작############# */
+    .today{
+        display: none;
+    }
+    .today_m{
+        display: flex;
+    }
+    /* ##############오늘의 책 & 베스트 셀러 모바일 끝############# */
+
+    .now{
+        display: none;
+    }
+    .now_m{
+        display: flex;
+    }
+
+    .writer{
+        height: 140px;
+        font-size: 24px;
+        padding-top: 40px;
+    }
+    .writer_1{
+        font-size: 16px;
+    }
+
+    .pick{
+        display: none;
+    }
+    .pick_list{
+        width: 100vw;
+        font-size: 16px;
+        margin-bottom: 22px;
+    }
+    .pick_list1{
+        width: 12.5vw;
+    }
+    .pick_list2{
+        width: 12.5vw;
+    }
+
+    .mind_con{
+        width: 80%;
+    }
+
+    .card{
+        grid-area: a;
+    }
+    .chan{
+        grid-area: b;
+        padding-left: 50px;
+    }
+    .blog{
+        grid-area: c;
+        padding-right: 50px;
+    }
+    .subcon1_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        place-items: center;
+    }
+
+    .yout_con{
+        width: 501px;
+    }
+    .yout_vi1{
+        width: 501px;
+        height: 282px;
+    }
+    .yout_vi1_1{
+        height: 282px;
+    }
+    .yout_dir{
+        width: 692px;
+    }
+
+
+    .info_1{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        row-gap: 30px;
+    }
+    .adv_text1{
+        font-size: 14px;
+    }
+    .adv_text2{
+        font-size: 12px;
+    }
+    .notif{
+        grid-area: a;
+    }
+    .adv1{
+        grid-area: b;
+    }
+    .adv2{
+        grid-area: c;
+    }
+
+
+    .fo_list1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding-top: 25px;
+        font-size: 14px;
+        padding-bottom: 36px;
+    }
+
+    .fo_list2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        row-gap: 25px;
+    }
+    .fo_text1{
+        grid-area: a;
+    }
+    .fo_text2{
+        grid-area: b;
+    }
+    .fo_text3{
+        grid-area: c;
+    }
+} 

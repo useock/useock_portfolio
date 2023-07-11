@@ -1,0 +1,229 @@
+@media all and (max-width:479px) {
+  .logo{
+    width: 141px;
+    height: 56px;
+  }
+  .search{
+      width: 220px;
+      height: auto;
+      font-size: 12px;
+  }
+  nav{
+      width: 100%;
+      font-size: 11px;
+  }
+  header{
+      display: none;
+  }
+
+  /* ##############메뉴바 모바일 시작############# */
+  .header_m{
+      display: flex;
+      justify-content: center;
+  }
+  .header_m2{
+      display: flex;
+      justify-content: space-between;
+  }
+  #menu_list_m{
+      display: block;
+  }
+  .search_m{
+    display: flex;
+  }
+  /* ##############메뉴바 모바일 끝############# */
+
+  /* ##############배너 모바일 시작############# */
+  .con_1{
+      font-size: 12px;
+      font-weight: 700;
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 90px 70px 60px;
+      row-gap: 10px;
+      margin-top: 50px;
+  }
+  .con_3{
+      font-size: 12px;
+      font-weight: 700;
+      display: grid;
+      justify-content: space-between;
+      grid-template-columns: 123px 84px;
+      row-gap: 10px;
+      padding-top: 20px;
+  }
+  .dir_pointer{
+      width: 15px;
+      height: auto;
+  }
+
+  .ad_menu{
+    grid-template-columns: repeat(3, 80px);
+    grid-template-rows: 20px;
+    row-gap: 10px;
+}
+  .ad_menu>a{
+    display: inline-block;
+    line-height: 20px;
+    font-size: 10px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 5px;
+  }
+  /* ##############배너 모바일 끝############# */
+
+    /* ##############오늘의 책 모바일 & 베스트 셀러 시작############# */
+    .today{
+        display: none;
+    }
+    .today_m{
+        display: flex;
+    }
+    /* ##############오늘의 책 & 베스트 셀러 모바일 끝############# */
+
+    .now{
+        display: none;
+    }
+    .now_m{
+        display: flex;
+    }
+    .writer{
+        height: 100px;
+        font-size: 16px;
+        padding-top: 28px;
+    }
+    .writer_1{
+        font-size: 12px;
+    }
+
+    .pick{
+        display: none;
+    }
+    .pick_list{
+        width: 100%;
+        font-size: 12px;
+        overflow: scroll;
+        white-space: nowrap;
+        column-gap: 40px;
+        margin-bottom: 22px;
+    }
+    .pick_list1{
+        width: 12.5%;
+    }
+    .pick_list2{
+        width: 12.5%;
+    }
+
+    .mind_con{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        row-gap: 20px;
+        place-items: center;
+    }
+    .mind_con>a{
+        width: 132px;
+    }
+
+    .subcon1_1{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+    }
+    .card_text1{
+        font-size: 12px;
+    }
+    .card_text2{
+        font-size: 12px;
+    }
+    .card_text3{
+        font-size: 11px;
+    }
+
+    .yout_con{
+        width: 95%;
+    }
+    .yout_vi1{
+        width: 100%;
+        height: 280px;
+    }
+    .yout_vi1_1{
+        height: 225px;
+    }
+    .yout_dir{
+        display: none;
+    }
+    #yout_vi1{
+        display: block;
+    }
+    #yout_vi2{
+        display: block;
+    }
+    #yout_vi3{
+        display: block;
+    }
+    #yout_text1{
+        display: none;
+    }
+    .yout_text1{
+        display: block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    .bene{
+        line-height: 80px;
+        font-size: 16px;
+    }
+
+    .info_1{
+        width: 90%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        row-gap: 30px;
+    }
+    .adv_text1{
+        font-size: 12px;
+    }
+    .adv_text2{
+        font-size: 11px;
+    }
+    .notif{
+        grid-area: a;
+    }
+    .adv1{
+        grid-area: b;
+    }
+    .adv2{
+        grid-area: c;
+    }
+
+
+    .fo_list1{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+        padding-top: 25px;
+        font-size: 12px;
+        padding-bottom: 36px;
+    }
+
+    .fo_list2{
+        display: grid;
+        grid-template-columns: 1fr;
+        row-gap: 25px;
+        font-size: 12px;
+    }
+    .fo_last{
+        font-size: 12px;
+        font-weight: 700;
+        opacity: 0.4;
+        text-align: center;
+        padding: 30px;
+    }
+  }

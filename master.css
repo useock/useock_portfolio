@@ -275,6 +275,9 @@ h3{
     width: 162px;
     text-align: left;
 }
+
+
+
 .work_slide_3{
     width: 101%;
     height: auto;
@@ -293,6 +296,28 @@ h3{
 		transform: translate(0);
 	}
 }
+.work_slide_4{
+    width: 101%;
+    height: auto;
+    animation-name: autoscroll_6;
+    animation-duration : 33s;
+    animation-iteration-count : infinite;
+}
+@keyframes autoscroll_6 {
+	0% {
+		transform: translate(0);
+	}
+	50% {
+		transform: translate(0%, -83.5%);
+	}
+    100% {
+		transform: translate(0);
+	}
+}
+
+
+
+
 .work_slide_1{
     width: 101%;
     height: auto;

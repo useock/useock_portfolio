@@ -1,0 +1,45 @@
+@media all and (min-width:1024px) and (max-width:1279px) {
+    .ad_menu{
+        grid-template-columns: repeat(6,120px);
+        row-gap: 20px;
+    }
+
+    .today_container{
+        width: 90vw;
+    }
+
+    .mind_con{
+        width: 60%;
+    }
+    
+    .card{
+        grid-area: a;
+    }
+    .chan{
+        grid-area: b;
+        padding-left: 50px;
+    }
+    .blog{
+        grid-area: c;
+        padding-right: 50px;
+    }
+    .subcon1_1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        "a a"
+        "b c";
+        place-items: center;
+    }
+    
+    .adv_text1{
+        font-size: 14px;
+    }
+    .adv_text2{
+        font-size: 12px;
+    }
+
+    .fo_list1{
+        column-gap: 18px;
+    }
+}
