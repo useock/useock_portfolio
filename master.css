@@ -184,7 +184,7 @@ h3{
     grid-template-columns: 1fr 1fr;
     height: auto;
     grid-column-gap: 60px;
-    margin-top: 20px;
+    padding-top: 60px;
 }
 .proimg{
     display: flex;
@@ -210,6 +210,7 @@ h3{
 .conbox2_3{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 60px;
 }
 .skill_1{
     display: grid;
